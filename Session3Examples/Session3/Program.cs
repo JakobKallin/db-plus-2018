@@ -15,6 +15,7 @@ namespace Session3
         public string Lyrics;
         public bool Single;
 
+        // Skapa ett Song-objekt utifrån en rad i databasen. Hädanefter har vi bestämda typer på allting och behöver inte längre bry oss om att datan ursprungligen kom från en databas.
         public Song(SqlDataReader reader)
         {
             ID = Convert.ToInt32(reader["ID"]);
@@ -96,6 +97,7 @@ namespace Session3
             // I ett större program bör vi här stänga uppkopplingen samt de andra objekten när vi är klara med dem för att se till att de inte tar upp resurser i onödan. Detta kan göras med "using"-satsen, som i detta kodexempel: https://docs.microsoft.com/en-us/dotnet/api/system.data.sqlclient.sqlconnection
         }
 
+        // Kör ett godtyckligt SQL-kommando, med antagandet att resultatet har kolumnerna ID, Title och Length.
         static void RunQuery(string sql, SqlConnection c)
         {
             SqlCommand command = new SqlCommand(sql, c);
@@ -110,6 +112,8 @@ namespace Session3
             }
         }
 
+        // Kör ett helt godtyckligt kommando och returnera resultatet oavsett antal kolumner och datatyper.
+        // List<Dictionary<string, object>> är ett alternativ på returtyp som troligtvis är enklare att arbeta med: varje rad är en Dictionary, och varje rad ligger i sin tur i en List.
         static List<List<object>> GetResults(string sql, SqlConnection c)
         {
             SqlCommand command = new SqlCommand(sql, c);
