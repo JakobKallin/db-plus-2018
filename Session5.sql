@@ -1,0 +1,32 @@
+-- Gör följande övningar med musikdatabasen efter att ha gjort klart övningarna
+-- från lektion 4:
+
+-- 1. Lägg till ett constraint som kräver att varje låt är längre än 0 sekunder.
+-- 2. Lägg till ett constraint som kräver att varje låttitel innehåller
+--    åtminstone ett tecken (och alltså inte är en tom sträng).
+-- 3. Utöka databasen så att varje album har en typ: antingen "original", "live"
+--    eller "compilation". Lägg sedan till ett constraint som ser till att dessa
+--    är de tre enda möjliga värdena.
+-- 4. Lägg till ett constraint som kräver att landet som ett band startades i är
+--    exakt två bokstäver (exempelvis US eller SE); andra tecken än A-Z ska inte
+--    tillåtas.
+-- 5. Utöka databasen så att varje bandmedlem har både födelsedatum och datum då
+--    personen gick med i sitt band. Lägg sedan till ett constraint som kräver
+--    att födelsedatumet är tidigast av de två datumen.
+-- 6. Lägg till ett constraint som hindrar ett album från att ha två låtar med
+--    samma spårnummer.
+-- 7. Lägg till ett constraint som gör att om ett band tas bort så tas även alla
+--    medlemmar i bandet bort.
+-- 8. Lägg till ett constraint som kräver att året då ett band startades inte är
+--    senare än nuvarande år. Året ska hämtas dynamiskt, inte hårdkodas till
+--    2018.
+-- 9. Lägg till ett constraint som kräver att födelsedatum för en bandmedlem
+--    inte är senare än dagens datum. Datumet ska hämtas dynamiskt, inte
+--    hårdkodas till 2018-11-29.
+-- 10. Utöka databasen med topplistor, som har namn och land (exempelvis
+--     Billboard Hot 100 i USA eller Sverigetopplistan i Sverige). Utöka också
+--     databasen så att en låt kan ha en rekordplacering ("peak position") på en
+--     eller flera topplistor (exempelvis att Thunder av Imagine Dragons hade
+--     rekordplacering 51 på Billboard Hot 100 och 19 på Sverigetopplistan).
+-- 11. Lägg till ett constraint som kräver att varje låt bara kan förekomma en
+--     enda gång på en och samma topplista.
