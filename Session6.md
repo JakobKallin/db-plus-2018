@@ -1,3 +1,5 @@
+# Design
+
 Ta fram en fullständig databas, inklusive tabeller, constraints och lämplig
 exempeldata, som matchar följande krav på en databas om fotboll så bra som
 möjligt:
@@ -29,3 +31,42 @@ Det finns inte nödvändigtvis en enda perfekt lösning (eller någon alls) på 
 av kraven, och alla egenskaper som vore önskvärda i lösningen har inte
 nödvändigtvis nämnts uttryckligen i beskrivningen. Denna uppgift handlar om att
 hitta en så bra balans som möjligt mellan korrekthet, flexibilitet och enkelhet.
+
+# SQL-uttryck
+
+För att testa och öva på databasens struktur, skriv sedan SQL-uttryck som hämtar följande data:
+
+1. Namn på samtliga spelare, samt vilket lag spelaren tillhör.
+
+Exempelresultat:
+
+Zlatan Ibrahimovic | Manchester United
+
+2. Starttid för samtliga matcher, samt vilken turnering och vilken arena som
+   matchen ägde rum på.
+
+Exempelresultat:
+
+2014-01-02 | 2014 FIFA World Cup | Friends Arena
+
+3. Färg och datum för samtliga utdelade kort i samtliga matcher, samt vilken
+   spelare som fick kortet.
+
+Exempelresultat:
+
+Zlatan Ibrahimovic | yellow | 2014-01-02
+
+4. Datum för samtliga mål i samtliga matcher, samt vilken spelare som gjorde
+   målet och vilket lag spelaren tillhör.
+
+Exempelresultat:
+
+Zlatan Ibrahimovic | 2014-01-02 | Manchester United
+
+5. Färg och datum för samtliga utdelade kort i samtliga matcher, samt vilken
+   spelare som fick kortet och vilken domare som delade ut kortet. Utgå från att
+   det är huvuddomaren ("main") som delar ut kort.
+
+Exempelresultat:
+
+Zlatan Ibrahimovic | Pierluigi Collina | yellow | 2014-01-02
