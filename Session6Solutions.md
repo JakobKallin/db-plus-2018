@@ -23,7 +23,6 @@ Se diagrammet [Session6Solution.png](Session6Solution.png) för den övergripand
 
 ### MatchReferee
 - Primary: MatchID, RefereeID
-- Unique: MatchID, Role
 - Role IN ('main', 'assistant', 'VAR')
 
 ## SQL-uttryck
