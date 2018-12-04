@@ -2,6 +2,12 @@
 
 Se diagrammet [Session7Solution.png](Session7Solution.png) för den övergripande databasstrukturen.
 
+OBS: Denna lösning tar inte hänsyn till terminer. Dessa kan läggas till
+exempelvis genom ett many-to-many-förhållande mellan Course och Curriculum där
+även terminen (HT eller VT) ingår. Att ha en struktur som helt och hållet
+garanterar att samtliga kurser, studenter etc. alltid hör samman enbart med rätt
+termin på rätt utbildning är dock opraktiskt eller omöjligt utan triggers.
+
 ## Constraints
 
 ### Samtliga tabeller med "PersonalIdentityNumber"
