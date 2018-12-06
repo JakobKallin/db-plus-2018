@@ -10,7 +10,7 @@ County: nvarchar(255)
 
 (Ha inte med någon ID-kolumn.)
 
-Kopiera och kör sedan kommandona i [Session8Cities.sql](Session8Cities.sql) (med
+Kopiera och kör sedan kommandona i [Session8Cities.sql](https://raw.githubusercontent.com/JakobKallin/db-plus-2018/master/Session8Cities.sql) (med
 `New Query`) för att lägga in data om Sveriges tätorter i tabellen.
 
 Skriv sedan SQL-uttryck som hämtar följande data från den:
