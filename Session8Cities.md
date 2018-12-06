@@ -1,6 +1,19 @@
-Kopiera och kör kommandona i [Session8Cities.sql](Session8Cities.sql) (med `New
-Query`) för att skapa en databas över svenska tätorter. Skriv sedan SQL-uttryck
-som hämtar följande data från den:
+Skapa en databas med en enda tabell `City` som har följande kolumner:
+
+```
+Name: nvarchar(255)
+Population: int
+Hectares: int
+Municipality: nvarchar(255)
+County: nvarchar(255)
+```
+
+(Ha inte med någon ID-kolumn.)
+
+Kopiera och kör sedan kommandona i [Session8Cities.sql](Session8Cities.sql) (med
+`New Query`) för att lägga in data om Sveriges tätorter i tabellen.
+
+Skriv sedan SQL-uttryck som hämtar följande data från den:
 
 1. Den totala befolkningen per län (county).
 
