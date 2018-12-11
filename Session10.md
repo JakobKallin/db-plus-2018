@@ -31,7 +31,7 @@ För att testa ett exempel på triggers, följ dessa steg:
 4. I fönstret som dyker upp, ersätt all kod med följande:
 
 ```
-ALTER TRIGGER ValidateSeatNumber
+CREATE TRIGGER ValidateSeatNumber
    ON Ticket
    AFTER INSERT, UPDATE
 AS 
