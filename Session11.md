@@ -30,7 +30,7 @@ The Terminator | US | action | 297
 Exempelresultat:
 
 Title | Rating | RatingComparedToAverage
--|-|-|-
+-|-|-
 The Terminator | 7.9 | 2.3
 
 3. Varje films titel, land och genre samt namnet på en rekommenderad film för
@@ -49,7 +49,7 @@ The Terminator | US | action | The Dark Knight
 Exempelresultat:
 
 Title | Director | NextMovie
--|-|-|-
+-|-|-
 Signs | M. Night Shyamalan | The Village
 
 5. Till denna uppgift, använd fotbollsdatabasen från [lektion
@@ -61,5 +61,5 @@ Signs | M. Night Shyamalan | The Village
 Exempelresultat:
 
 Start | FirstTeam | SecondTeam | FirstTeamGoals | SecondTeamGoals
--|-|-|-
+-|-|-|-|-
 2018-01-01 18:00:00 | Manchester United | Real Madrid | 3 | 2
