@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Countries>
+    <Country Name="Sweden" Code="SE">
+        <Language Name="Swedish"/>
+        <City Name="Stockholm" Population="1515017">
+            <Street Name="Kungsgatan" Length="1500"/>
+            <Street Name="Hornsgatan" Length="2300"/>
+        </City>
+        <City Name="Gothenburg" Population="590580">
+            <Street Name="Arkivgatan" Length="215"/>
+            <Street Name="Stampgatan" Length="1300"/>
+        </City>
+        <City Name="Malmö" Population="312012">
+            <Street Name="Regementsgatan" Length="1800"/>
+        </City>
+    </Country>
+    <Country Name="Belgium" Code="BE">
+        <Language Name="French"/>
+        <Language Name="Dutch"/>
+        <Language Name="German"/>
+        <City Name="Brussels" Population="176545">
+            <Street Name="Rue Guimard" Length="185"/>
+        </City>
+    </Country>
+</Countries>

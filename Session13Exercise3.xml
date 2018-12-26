@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bands>
+    <Band Name="Soul Asylum" YearFormed="1981" Country="US">
+        <Album Title="Grave Dancers Union" ReleaseDate="1992-10-06">
+            <Song Title="Runaway Train" Length="185"/>
+            <Song Title="The Sun Maid" Length="210"/>
+        </Album>
+        <Album Title="Let Your Dim Light Shine" ReleaseDate="1995-06-06">
+            <Song Title="Misery" Length="195"/>
+            <Song Title="Promises Broken" Length="221"/>
+        </Album>
+    </Band>
+    <Band Name="The Rolling Stones" YearFormed="1962" Country="EN">
+        <Album Title="Tattoo You" ReleaseDate="1981-08-24">
+            <Song Title="Start Me Up" Length="219"/>
+        </Album>
+    </Band>
+</Bands>

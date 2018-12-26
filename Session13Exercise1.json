@@ -1,0 +1,51 @@
+[
+    {
+        "Name": "Soul Asylum",
+        "YearFormed": 1981,
+        "Country": "US",
+        "Albums": [
+            {
+                "Title": "Grave Dancers Union",
+                "ReleaseDate": "1992-10-06",
+                "Songs": [
+                    {
+                        "Title": "Runaway Train",
+                        "Length": 185
+                    },
+                    {
+                        "Title": "The Sun Maid",
+                        "Length": 210
+                    }
+                ]
+            },
+            {
+                "Title": "Let Your Dim Light Shine",
+                "ReleaseDate": "1995-06-06",
+                "Songs": [
+                    {
+                        "Title": "Misery",
+                        "Length": 195
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "ID": 2,
+        "Name": "The Rolling Stones",
+        "YearFormed": 1962,
+        "Country": "EN",
+        "Albums": [
+            {
+                "Title": "Tattoo You",
+                "ReleaseDate": "1981-08-24",
+                "Songs": [
+                    {
+                        "Title": "Start Me Up",
+                        "Length": 219
+                    }
+                ]
+            }
+        ]
+    }
+]

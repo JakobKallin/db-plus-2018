@@ -1,0 +1,5 @@
+- Tabell för Country med ID, Name och Code
+- Tabell för City med ID, Name, Population och CountryID
+- Tabell för Street med ID, Name, Length och CityID
+- Tabell för Language med ID och Name
+- Join-tabell för Country/Language med CountryID och LanguageID
